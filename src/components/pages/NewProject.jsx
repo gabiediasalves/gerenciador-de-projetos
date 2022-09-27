@@ -7,7 +7,6 @@ function NewProject() {
   const navigate = useNavigate();
 
   function createPost(project) {
-    //inicializa cost e services
     project.cost = 0
     project.services = []
 
