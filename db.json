@@ -13,13 +13,20 @@
     },
     {
       "name": "Técnico de informática",
-      "budget": "222222",
+      "budget": "22222",
       "category": {
         "id": "3",
         "name": "Design"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 409,
+      "services": [
+        {
+          "name": "Técnico de informática",
+          "cost": "409",
+          "description": "sss",
+          "id": "d78a1734-0b2e-4da4-b068-7e06539db6f9"
+        }
+      ],
       "id": 4
     }
   ],
