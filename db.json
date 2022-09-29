@@ -1,8 +1,8 @@
 {
   "projects": [
     {
-      "name": "Projeto 1",
-      "budget": "5000",
+      "name": "Projeto atualizado",
+      "budget": "550",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
@@ -10,6 +10,17 @@
       "cost": 0,
       "services": [],
       "id": 3
+    },
+    {
+      "name": "Técnico de informática",
+      "budget": "222222",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
     }
   ],
   "categories": [
