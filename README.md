@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+<h1 align="center">Projeto Gerenciador de projetos React requisições HTTP</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+   * [Funcionalidades e imagens](#funcionalidades)
+   * [Instalação](#instalacao)
+   
+   <img src="https://user-images.githubusercontent.com/95694730/215352840-b041d49a-c8cd-4039-8461-eb0c935329b2.png">
+  <br><br>
+  
+<section id="funcionalidades"> 
+  
+## 🚀 Funcionalidades
+ - Tela Home
+ - Navegação nas telas do Nav
+ - Botão "criar projeto" para criação 
+<img src="https://user-images.githubusercontent.com/95694730/215352840-b041d49a-c8cd-4039-8461-eb0c935329b2.png" style="width: 800px;">
 
-## Available Scripts
+ - Template criação de projetos
+<img src="https://user-images.githubusercontent.com/95694730/215353816-dd2abe88-9a71-4746-a592-c0d52355af87.png" style="width: 800px;">
 
-In the project directory, you can run:
+<br><br>
 
-### `npm start`
+ - Tela Projetos
+<img src="https://user-images.githubusercontent.com/95694730/215353023-04b0f68d-e8c9-4694-ab19-a3bff9ca351b.png" style="width: 800px;">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ - Edição
+ - Criação 
+ - Exclusão 
+<img src="https://user-images.githubusercontent.com/95694730/215353053-0faf746f-f160-4e0e-b956-8c1afe92d677.png" style="width: 800px;">
+<img src="https://user-images.githubusercontent.com/95694730/215353072-adf1f2c0-660e-4bc7-a19f-97779efc8ea8.png" style="width: 800px;">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ - Adicionando serviço com parâmetro no valor do orçamento em relação ao valor do serviço
+<img src="https://user-images.githubusercontent.com/95694730/215353088-f31a09cb-a762-4873-8a3c-a1e87a1685e7.png" style="width: 800px;">
 
-### `npm test`
+</section>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br><br>
 
-### `npm run build`
+<section id="instalacao"> 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ℹ️ Instalação
+ - Para clonar e executar este aplicativo, você precisará do Git, Node.js v10.16 ou superior + Yarn v1.13 ou superior instalado em seu computador. 
+  Insira as linhas de comando:
+  
+  ```bash
+# Clone this repository
+$ git clone https://github.com/gabiediasalves/biblioteca-de-filmes.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Go into the repository
+$ cd biblioteca-de-filmes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Install dependencies
+$ yarn install
 
-### `npm run eject`
+# Run the index.js
+$ cd SRC
+$ npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Run the backend
+$ cd SRC
+$ npm run backend
+```
+</section>
